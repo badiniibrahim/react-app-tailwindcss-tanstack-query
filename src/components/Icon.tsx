@@ -1,5 +1,6 @@
-import { FC } from "react";
-import { icons } from "lucide-react";
+import { FC } from 'react';
+
+import { icons } from 'lucide-react';
 
 type IconName = keyof typeof icons;
 

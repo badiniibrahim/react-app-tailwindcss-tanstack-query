@@ -1,5 +1,6 @@
-import { FC } from "react";
-import { Posts } from "../types";
+import { FC } from 'react';
+
+import { Posts } from '../types';
 
 type Props = {
   post: Posts;
@@ -8,7 +9,7 @@ type Props = {
 
 const PostsItem: FC<Props> = ({ post, onPress }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow hover:shadow-lg">
+    <div className="max-w-sm rounded overflow-hidden shadow hover:shadow-lg dark:bg-white">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{post.title}</div>
         <p className="text-gray-700 text-base">{post.body}</p>

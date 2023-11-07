@@ -1,10 +1,12 @@
-import { lazy, Suspense } from "react";
-import { Route, Routes } from "react-router-dom";
-import LayoutPage from "../pages/LayoutPage";
+import { lazy, Suspense } from 'react';
 
-const PostsPage = lazy(() => import("../pages/PostsPage"));
-const PostPageDetail = lazy(() => import("../pages/PostPageDetail"));
-const NotFoundPage = lazy(() => import("../pages/NotFoundPage"));
+import { Route, Routes } from 'react-router-dom';
+
+import LayoutPage from '../pages/LayoutPage';
+
+const PostsPage = lazy(() => import('../pages/PostsPage'));
+const PostPageDetail = lazy(() => import('../pages/PostPageDetail'));
+const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 
 const AppRoutes = () => (
   <>

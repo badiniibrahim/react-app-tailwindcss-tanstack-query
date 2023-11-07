@@ -1,5 +1,7 @@
-import { BrowserRouter } from "react-router-dom";
-import AppRoutes from "./routes";
+import { BrowserRouter } from 'react-router-dom';
+
+import './i18n';
+import AppRoutes from './routes';
 
 const App = () => {
   return (

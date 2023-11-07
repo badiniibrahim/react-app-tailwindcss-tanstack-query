@@ -1,5 +1,5 @@
-import useTheme from "../hooks/useTheme";
-import Icon from "./Icon";
+import Icon from './Icon';
+import useTheme from '../hooks/useTheme';
 
 const Navbar = () => {
   const { darkMode, setDarkMode } = useTheme();

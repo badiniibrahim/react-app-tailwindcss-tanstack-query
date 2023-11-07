@@ -1,6 +1,7 @@
-import { FC, useId } from "react";
-import { Posts } from "../types";
-import PostsItem from "./PostsItem";
+import { FC, useId } from 'react';
+
+import PostsItem from './PostsItem';
+import { Posts } from '../types';
 
 type Props = {
   posts: Posts[];

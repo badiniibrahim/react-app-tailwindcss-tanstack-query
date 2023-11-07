@@ -1,8 +1,10 @@
-import { useCallback } from "react";
-import { usePosts } from "../hooks/usePosts";
-import PostsList from "../components/PostList";
-import Loader from "../components/Loader";
-import { useNavigate } from "react-router-dom";
+import { useCallback } from 'react';
+
+import { useNavigate } from 'react-router-dom';
+
+import Loader from '../components/Loader';
+import PostsList from '../components/PostList';
+import { usePosts } from '../hooks/usePosts';
 
 const PostsPage = () => {
   const { isLoading, isSuccess, data } = usePosts();
@@ -12,7 +14,7 @@ const PostsPage = () => {
     (id: number) => {
       navigate(`/detail/${id}`);
     },
-    [navigate]
+    [navigate],
   );
 
   return (

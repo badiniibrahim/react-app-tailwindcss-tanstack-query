@@ -15,6 +15,7 @@ const Icon: FC<Props> = ({ name, color, size = 30, onClick }) => {
 
   return (
     <LucideIcon
+      data-testid="icon"
       color={color}
       size={size}
       onClick={onClick}

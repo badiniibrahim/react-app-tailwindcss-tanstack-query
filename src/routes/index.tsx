@@ -7,7 +7,6 @@ import LayoutPage from '../pages/LayoutPage';
 const PostsPage = lazy(() => import('../pages/PostsPage'));
 const PostPageDetail = lazy(() => import('../pages/PostPageDetail'));
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
-const AboutPage = lazy(() => import('../pages/AboutPage'));
 
 const AppRoutes = () => (
   <>
@@ -15,7 +14,6 @@ const AppRoutes = () => (
       <Routes>
         <Route element={<LayoutPage />}>
           <Route path="/" element={<PostsPage />} />
-          <Route path="/about" element={<AboutPage />} />
           <Route path="/detail/:id" element={<PostPageDetail />} />
           <Route element={<NotFoundPage />} />
         </Route>

@@ -1,4 +1,7 @@
+import ChooseLanguage from './ChooseLanguage';
 import Icon from './Icon';
+import en from '../assets/en.png';
+import fr from '../assets/fr.png';
 import useTheme from '../hooks/useTheme';
 
 const Navbar = () => {
@@ -28,6 +31,9 @@ const Navbar = () => {
                 onClick={() => setDarkMode(true)}
               />
             )}
+            <ChooseLanguage code="fr" label="FR" img={fr} />
+            <div className="dark:text-white">&nbsp;|&nbsp;</div>
+            <ChooseLanguage code="en" label="EN" img={en} />
           </div>
         </div>
       </div>

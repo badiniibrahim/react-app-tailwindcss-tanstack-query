@@ -1,5 +1,7 @@
 import { FC } from 'react';
 
+import { useTranslation } from 'react-i18next';
+
 import { Posts } from '../types';
 
 type Props = {
@@ -8,6 +10,7 @@ type Props = {
 };
 
 const PostsItem: FC<Props> = ({ post, onPress }) => {
+  const { t } = useTranslation();
   return (
     <div className="max-w-sm rounded overflow-hidden shadow hover:shadow-lg dark:bg-white">
       <div className="px-6 py-4">
@@ -19,7 +22,7 @@ const PostsItem: FC<Props> = ({ post, onPress }) => {
           onClick={onPress}
           className="hover:bg-green-700 hover:text-white inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2 cursor-pointer shadow hover:shadow-lg"
         >
-          Voir le detail
+          {t('postsItem.view')}
         </span>
       </div>
     </div>

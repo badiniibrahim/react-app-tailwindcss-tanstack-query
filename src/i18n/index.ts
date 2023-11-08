@@ -11,7 +11,7 @@ i18n.use(initReactI18next).init({
     en: {
       translation: en,
     },
-    pl: {
+    fr: {
       translation: fr,
     },
   },

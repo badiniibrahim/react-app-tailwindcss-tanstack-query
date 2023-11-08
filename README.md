@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# Easy server state with Tanstack Query (React Query)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The repository is dedicated to Tanstack Query a simple and effective solution to synchronize data between the front and back and offers features that make the developer's life easier and improve the user experience.
 
-## Available Scripts
+ <h1 align="center">
+  SAWADOGO Badini Ibrahim
+</h1>
 
-In the project directory, you can run:
+[![GitHub badiniibrahim](https://img.shields.io/github/followers/badiniibrahim?label=follow&style=social)](https://github.com/badiniibrahim)
 
-### `npm start`
+[![Gmail Badge](https://img.shields.io/badge/-sawadogo.badiniibrahim@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=sawadogo.badiniibrahim@gmail.com)](mailto:sawadogo.badiniibrahim@gmail.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/badini-ibrahim-s-306b119b/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## About this Repository
 
-### `npm test`
+![GitHub language count](https://img.shields.io/github/languages/count/badiniibrahim/react-app-tailwindcss-tanstack-query)
+![GitHub top language](https://img.shields.io/github/languages/top/badiniibrahim/react-app-tailwindcss-tanstack-query)
+![GitHub last commit](https://img.shields.io/github/last-commit/badiniibrahim/react-app-tailwindcss-tanstack-query)
+![Github Repo Size](https://img.shields.io/github/repo-size/badiniibrahim/react-app-tailwindcss-tanstack-query)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies
 
-### `npm run build`
+- React.js
+- Beautiful layouts with TailwindCSS
+- Tanstack Query
+- Storybook
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :running: Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Clone the project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  git clone https://github.com/badiniibrahim/react-app-tailwindcss-tanstack-query.git
+```
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+$ yarn install
+```

@@ -26,6 +26,35 @@ The repository is dedicated to Tanstack Query a simple and effective solution to
 - Tanstack Query
 - Storybook
 
+## 👨‍💻 Getting Started
+
+### Prerequisites
+
+<details>
+  <summary><a href="https://github.com/nvm-sh/nvm">nvm</a></summary>
+
+```shell
+brew install nvm
+```
+
+</details>
+<details>
+  <summary><a href="https://nodejs.org/en/">Node.js</a></summary>
+
+```shell
+nvm install v17.4.0
+```
+
+</details>
+<details>
+  <summary><a href="https://yarnpkg.com/">Yarn</a></summary>
+
+```shell
+npm install --global yarn
+```
+
+</details>
+
 ## :running: Run Locally
 
 Clone the project
@@ -38,4 +67,14 @@ Clone the project
 
 ```bash
 $ yarn install
+```
+
+### Testing
+
+#### Unit / Integration tests
+
+Launch the test runner in the interactive watch mode:
+
+```shell
+yarn test
 ```
